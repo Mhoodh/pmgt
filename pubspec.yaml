@@ -1,0 +1,50 @@
+name: project_man
+description: تطبيق إدارة المشاريع
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # المكتبات المطلوبة للمشروع
+  provider: ^6.0.5           # لإدارة الحالة
+  sqflite: ^2.2.8+4 
+  sqflite_common_ffi: ^2.2.5          # قاعدة بيانات SQLite
+  path: ^1.8.3               # للعمل مع المسارات
+  shared_preferences: ^2.1.1  # لتخزين البيانات البسيطة
+  intl: ^0.19.0              # لتنسيق التاريخ واللغات
+  path_provider: ^2.0.15     # للعمل مع مسارات الملفات
+  
+  # واجهة المستخدم
+  cupertino_icons: ^1.0.5    # أيقونات iOS
+  flutter_svg: ^2.0.5        # لعرض صور SVG
+  cached_network_image: ^3.2.3  # لتخزين الصور مؤقتًا
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # ملاحظة: تم تعليق الموارد مؤقتًا حتى يتم إنشاء المجلدات
+  # assets:
+  #   - assets/images/
+    
+  # fonts:
+  #   - family: Cairo
+  #     fonts:
+  #       - asset: assets/fonts/Cairo-Regular.ttf
+  #       - asset: assets/fonts/Cairo-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Cairo-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Cairo-Bold.ttf
+  #         weight: 700
