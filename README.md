@@ -1,16 +1,36 @@
-# project_man
+# 📱 Project management
 
-A new Flutter project.
+تطبيق Flutter لإدارة المشاريع يتيح للمستخدمين إضافة المشاريع وتتبع تقدمها بطريقة سهلة.
 
-## Getting Started
+## 🚀 الميزات
+- 📌 إضافة مشاريع جديدة مع تفاصيل كاملة.
+- 📊 عرض حالة كل مشروع بطريقة منظمة.
+- 🔔 إشعارات عند انتهاء المشاريع.
+- 💾 حفظ البيانات باستخدام SQLite.
 
-This project is a starting point for a Flutter application.
+## 🛠️ الأدوات والتقنيات المستخدمة
+- **لغة البرمجة**: Dart
+- **إطار العمل**: Flutter
+- **قاعدة البيانات**: SQLite
+- **إدارة الحالة**: Provider
+- 
+ 
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 كيفية التشغيل
+1. **استنساخ المستودع**:
+   ```bash
+    
+   git clone https://github.com/your-username/your-repository.git
+   2.انتقل الى مجلد المشروع واكتب هذا الامر
+   cd your-repository
+3.تثبيت الحزم المطلوبة
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ ```bash
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ ```
+
+4.تشغيل التطبيق على المحاكي أو الهاتف
+ ```bash
+  flutter run
+ 
